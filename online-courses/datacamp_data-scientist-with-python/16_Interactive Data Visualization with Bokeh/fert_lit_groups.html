@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="1412b2d2-f8e7-45b4-9433-85d0d429fa37"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="8931">
+          {"f1caa670-bdf3-4d03-adf1-b1818f473175":{"roots":{"references":[{"attributes":{"below":[{"id":"8282","type":"LinearAxis"}],"left":[{"id":"8287","type":"LinearAxis"}],"renderers":[{"id":"8282","type":"LinearAxis"},{"id":"8286","type":"Grid"},{"id":"8287","type":"LinearAxis"},{"id":"8291","type":"Grid"},{"id":"8300","type":"BoxAnnotation"},{"id":"8319","type":"Legend"},{"id":"8310","type":"GlyphRenderer"},{"id":"8324","type":"GlyphRenderer"}],"title":{"id":"8312","type":"Title"},"toolbar":{"id":"8298","type":"Toolbar"},"x_range":{"id":"8274","type":"DataRange1d"},"x_scale":{"id":"8278","type":"LinearScale"},"y_range":{"id":"8276","type":"DataRange1d"},"y_scale":{"id":"8280","type":"LinearScale"}},"id":"8273","subtype":"Figure","type":"Plot"},{"attributes":{"data_source":{"id":"8272","type":"ColumnDataSource"},"glyph":{"id":"8322","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8323","type":"Circle"},"selection_glyph":null,"view":{"id":"8325","type":"CDSView"}},"id":"8324","type":"GlyphRenderer"},{"attributes":{"overlay":{"id":"8300","type":"BoxAnnotation"}},"id":"8294","type":"BoxZoomTool"},{"attributes":{},"id":"8293","type":"WheelZoomTool"},{"attributes":{},"id":"8278","type":"LinearScale"},{"attributes":{},"id":"8316","type":"BasicTickFormatter"},{"attributes":{"label":{"value":"Latin America"},"renderers":[{"id":"8310","type":"GlyphRenderer"}]},"id":"8320","type":"LegendItem"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"8300","type":"BoxAnnotation"},{"attributes":{"fill_color":{"value":"blue"},"line_color":{"value":"blue"},"size":{"units":"screen","value":10},"x":{"field":"fertility"},"y":{"field":"female literacy"}},"id":"8322","type":"Circle"},{"attributes":{"callback":null,"data":{"Continent":["AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF","AF"],"Country":["Nig\u00e9ria","Egypte","Ethiopie","R\u00e9p. D\u00e9mocratique du Congo","Afrique du Sud","R\u00e9publique-Unie de Tanzanie","Soudan","Kenya","Alg\u00e9rie","Ouganda","Maroc","Ghana","Mozambique","C\u00f4te d'Ivoire","Madagascar","Cameroun","Angola","Burkina Faso","Malawi","Niger","Mali","Zambie","Zimbabwe","S\u00e9n\u00e9gal","Tchad","Tunisie","Guin\u00e9e","Rwanda","B\u00e9nin","Burundi","Togo","Jamahiriya arabe libyenne","Sierra Leone","Erythr\u00e9e","R\u00e9publique centrafricaine","Lib\u00e9ria","Mauritanie","Namibie","Lesotho","Botswana","Gambie","Guin\u00e9e-Bissau","Gabon","Maurice","Swaziland","Guin\u00e9e \u00e9quatoriale","Comores","Cap-Vert","Sao Tom\u00e9-et-Principe"],"female literacy":{"__ndarray__":"ZmZmZmZmSEBmZmZmZuZMQM3MzMzMzDZAzczMzMwMTEBmZmZmZgZWQDMzMzMzk1BAzczMzMzMTUAzMzMzM7NUQDMzMzMz809AMzMzMzOzUEDNzMzMzAxGQGZmZmZmpk1AzczMzMwMREBmZmZmZiZGQDMzMzMzU1BAMzMzMzPzUEAAAAAAAIBMQJqZmZmZmTVAMzMzMzNzUEAzMzMzMzMuQDMzMzMzMzJAAAAAAACATkAzMzMzMzNWQAAAAAAAgEBAZmZmZmbmNUAAAAAAAMBRQGZmZmZmZjpAZmZmZmaGUECamZmZmRk8QDMzMzMz801AmpmZmZnZSkAzMzMzM1NUQGZmZmZm5jxAAAAAAABAS0DNzMzMzIxEQAAAAAAAgEpAAAAAAADASEDNzMzMzOxVQGZmZmZmxldAAAAAAADgVEBmZmZmZiZBQAAAAAAAQEJAzczMzMzMVEAzMzMzMzNVQGZmZmZmZlVAZmZmZmZGVkAzMzMzM/NQQDMzMzMz01NAMzMzMzPTVEA=","dtype":"float64","shape":[49]},"fertility":{"__ndarray__":"/dR46SaxFEC7SQwCK4cGQPLSTWIQ2BRAbhKDwMqhF0AK16NwPQoEQBSuR+F6FBZACKwcWmQ7EEBWDi2ynW8TQCPb+X5qvAJAarx0kxgEGUB56SYxCKwCQOF6FK5H4RBAke18PzXeE0B0kxgEVg4SQHsUrkfhehJARIts5/spEkBANV66SYwWQHe+nxovXRdAUrgehevRFUAtsp3vp0YcQB+F61G4nhVAppvEILDyFkCBlUOLbOcKQI/C9ShcjxNAbef7qfFSGEDb+X5qvHT9PzeJQWDlUBVAUrgehetRFUBPjZduEoMVQM3MzMzMzBFARIts5/upEECJQWDl0CIFQClcj8L1qBRA6iYxCKwcEkB9PzVeuskSQCUGgZVDCxRAWmQ730+NEUBSuB6F61EKQOkmMQisHApA+n5qvHSTBkDGSzeJQeATQIlBYOXQohZA7FG4HoXrCUB46SYxCKz8P5qZmZmZmQtAbhKDwMohFUAUrkfhehQPQOj7qfHSTQVAWDm0yHa+DUA=","dtype":"float64","shape":[49]},"index":[7,14,15,19,24,29,30,32,34,36,37,47,49,51,54,55,56,60,61,62,66,67,68,69,72,76,79,80,85,86,94,95,101,106,113,117,123,131,132,135,136,137,138,142,143,147,148,151,159],"population":{"__ndarray__":"AAAAvKEGokEAAAAQBnCTQQAAAGhbPpNBAAAA2NOjjkEAAADAPDeHQQAAAJgGQoRBAAAAWFS3g0EAAAAAGHyCQQAAAJD5Y4BBAAAAELowfkEAAAAANyR+QQAAAPDoRHZBAAAAUHxYdUEAAABgLKNzQQAAANDBOXJBAAAAEEA0ckEAAADAky9xQQAAAIBrDm1BAAAAwBxRbEEAAADA1wtsQQAAAAD5O2hBAAAAYDcSaEEAAADgY8VnQQAAAKB9SmdBAAAAYPDQZEEAAAAA37JjQQAAAOBLwWJBAAAAwG6KYkEAAADAiIVgQQAAAIADzV5BAAAAQDujWEEAAABAqQJYQQAAAECLNVVBAAAAQGfLUkEAAADAj41QQQAAAAD88ExBAAAAgGGHSEEAAAAA3z9AQQAAAACVRT9BAAAAAGJQPUEAAAAAKFU5QQAAAAAWCjhBAAAAAN8YNkEAAAAAdlwzQQAAAADa0TFBAAAAAPodJEFUUieg5qMjQQAAAADAbx5BAAAAAHCNA0E=","dtype":"float64","shape":[49]}},"selected":{"id":"8609","type":"Selection"},"selection_policy":{"id":"8608","type":"UnionRenderers"}},"id":"8272","type":"ColumnDataSource"},{"attributes":{},"id":"8608","type":"UnionRenderers"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"8292","type":"PanTool"},{"id":"8293","type":"WheelZoomTool"},{"id":"8294","type":"BoxZoomTool"},{"id":"8295","type":"SaveTool"},{"id":"8296","type":"ResetTool"},{"id":"8297","type":"HelpTool"}]},"id":"8298","type":"Toolbar"},{"attributes":{"source":{"id":"8272","type":"ColumnDataSource"}},"id":"8325","type":"CDSView"},{"attributes":{"callback":null},"id":"8276","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"fertility"},"y":{"field":"female literacy"}},"id":"8323","type":"Circle"},{"attributes":{},"id":"8297","type":"HelpTool"},{"attributes":{},"id":"8280","type":"LinearScale"},{"attributes":{"label":{"value":"Africa"},"renderers":[{"id":"8324","type":"GlyphRenderer"}]},"id":"8335","type":"LegendItem"},{"attributes":{},"id":"8609","type":"Selection"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":10},"x":{"field":"fertility"},"y":{"field":"female literacy"}},"id":"8308","type":"Circle"},{"attributes":{},"id":"8283","type":"BasicTicker"},{"attributes":{"source":{"id":"8271","type":"ColumnDataSource"}},"id":"8311","type":"CDSView"},{"attributes":{"axis_label":"female_literacy (% population)","formatter":{"id":"8316","type":"BasicTickFormatter"},"plot":{"id":"8273","subtype":"Figure","type":"Plot"},"ticker":{"id":"8288","type":"BasicTicker"}},"id":"8287","type":"LinearAxis"},{"attributes":{},"id":"8332","type":"UnionRenderers"},{"attributes":{},"id":"8333","type":"Selection"},{"attributes":{},"id":"8295","type":"SaveTool"},{"attributes":{"dimension":1,"plot":{"id":"8273","subtype":"Figure","type":"Plot"},"ticker":{"id":"8288","type":"BasicTicker"}},"id":"8291","type":"Grid"},{"attributes":{},"id":"8288","type":"BasicTicker"},{"attributes":{"plot":{"id":"8273","subtype":"Figure","type":"Plot"},"ticker":{"id":"8283","type":"BasicTicker"}},"id":"8286","type":"Grid"},{"attributes":{},"id":"8314","type":"BasicTickFormatter"},{"attributes":{"callback":null,"data":{"Continent":["LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT","LAT"],"Country":["Br\u00e9sil","Mexique","Colombie","Argentine","P\u00e9rou","Venezuela","Chili","Guatemala","Equateur","Cuba","R\u00e9publique dominicaine","Bolivie","Honduras","Paraguay","El Salvador","Nicaragua","Costa Rica","Panama","Uruguay","Jama\u00efque","Trinit\u00e9-et-Tobago","Suriname","Bahamas","Aruba"],"female literacy":{"__ndarray__":"zczMzMyMVkAAAAAAAOBWQJqZmZmZWVdAzczMzMxsWEBmZmZmZiZVQJqZmZmZuVdAzczMzMysWEDNzMzMzCxRQM3MzMzMbFRAMzMzMzPzWEAzMzMzMxNWQAAAAAAAgFVAAAAAAADgVEAAAAAAAGBXQJqZmZmZWVRAmpmZmZl5U0DNzMzMzAxYQDMzMzMzM1dAAAAAAACgWEAzMzMzM7NWQM3MzMzMjFhAmpmZmZkZVkAAAAAAACBYQAAAAAAAgFhA","dtype":"float64","shape":[24]},"fertility":{"__ndarray__":"CKwcWmQ7/T9zaJHtfD8BQAisHFpkOwNAYxBYObTIAUA9CtejcD0EQJZDi2zn+wNAN4lBYOXQ/j/fT42XbhIQQLTIdr6fGgRAFK5H4XoU+D9MN4lBYOUEQCyHFtnO9wpAhetRuB6FCUA3iUFg5dAHQFyPwvUoXAJAEVg5tMh2BUBKDAIrhxb/P1TjpZvEIARAg8DKoUW2AEBMN4lBYOUCQCYxCKwcWvo/lkOLbOf7AkAshxbZzvcKQIPAyqFFtvs/","dtype":"float64","shape":[24]},"index":[4,10,28,31,40,42,57,64,65,71,78,81,90,96,98,100,109,120,122,128,140,150,154,160],"population":{"__ndarray__":"AAAAZIHipkHNzMyGHVuZQQAAAACkdoVBAAAAIIcEg0EAAADANYB7QQAAAIARpHpBAAAAAIcGcEEAAAAArhpqQQAAAAC6tmlBAAAA4A9fZUEAAADguPtiQQAAACB0fWJBAAAAQEHrW0EAAADAp8tXQQAAAIAlZldBAAAAQH+eVUEAAACANT1RQQAAAIBT7klBAAAAANJvSUEAAAAAcIBEQQAAAACMWDRBAAAAANBwH0EAAAAAEJwUQQAAAADwvvlA","dtype":"float64","shape":[24]}},"selected":{"id":"8333","type":"Selection"},"selection_policy":{"id":"8332","type":"UnionRenderers"}},"id":"8271","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"fertility"},"y":{"field":"female literacy"}},"id":"8309","type":"Circle"},{"attributes":{"plot":null,"text":""},"id":"8312","type":"Title"},{"attributes":{"axis_label":"fertility (children per woman)","formatter":{"id":"8314","type":"BasicTickFormatter"},"plot":{"id":"8273","subtype":"Figure","type":"Plot"},"ticker":{"id":"8283","type":"BasicTicker"}},"id":"8282","type":"LinearAxis"},{"attributes":{"data_source":{"id":"8271","type":"ColumnDataSource"},"glyph":{"id":"8308","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8309","type":"Circle"},"selection_glyph":null,"view":{"id":"8311","type":"CDSView"}},"id":"8310","type":"GlyphRenderer"},{"attributes":{"callback":null},"id":"8274","type":"DataRange1d"},{"attributes":{},"id":"8292","type":"PanTool"},{"attributes":{"background_fill_color":{"value":"lightgray"},"items":[{"id":"8320","type":"LegendItem"},{"id":"8335","type":"LegendItem"}],"location":"bottom_left","plot":{"id":"8273","subtype":"Figure","type":"Plot"}},"id":"8319","type":"Legend"},{"attributes":{},"id":"8296","type":"ResetTool"}],"root_ids":["8273"]},"title":"Bokeh Application","version":"1.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('8931').textContent;
+                  var render_items = [{"docid":"f1caa670-bdf3-4d03-adf1-b1818f473175","roots":{"8273":"1412b2d2-f8e7-45b4-9433-85d0d429fa37"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

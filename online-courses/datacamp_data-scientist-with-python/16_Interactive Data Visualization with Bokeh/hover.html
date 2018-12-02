@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.0.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="301edbf8-1c9e-437e-8f2a-b8b1daed9a99"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="13524">
+          {"b26c8de4-5215-4daf-8642-24270286ec08":{"roots":{"references":[{"attributes":{"children":[{"id":"12879","type":"Toggle"},{"id":"12880","type":"CheckboxGroup"},{"id":"12881","type":"RadioGroup"}]},"id":"13203","type":"WidgetBox"},{"attributes":{"callback":null,"labels":["Option 1","Option 2","Option 3"]},"id":"12880","type":"CheckboxGroup"},{"attributes":{"callback":null,"labels":["Option 1","Option 2","Option 3"]},"id":"12881","type":"RadioGroup"},{"attributes":{"button_type":"success","callback":null,"icon":null,"label":"Toggle button"},"id":"12879","type":"Toggle"}],"root_ids":["13203"]},"title":"Bokeh Application","version":"1.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('13524').textContent;
+                  var render_items = [{"docid":"b26c8de4-5215-4daf-8642-24270286ec08","roots":{"13203":"301edbf8-1c9e-437e-8f2a-b8b1daed9a99"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
